@@ -7,7 +7,6 @@ public class CountDigit {
     public static int count(int n) {
         int c = 0;
         while (n != 0) {
-            int d = n % 10;
             n /= 10;
             c++;
         }
